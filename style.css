@@ -35,6 +35,7 @@ ul {
     flex-direction: row;
     background-color: #1F2937;
     padding: 100px 200px;
+    gap: 24px;
 }
 
 .title1 {
@@ -68,4 +69,99 @@ button {
 
 .left {
     flex: 1;
+}
+
+.title2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 250px 125px 250px;
+}
+
+.card {
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    height: 150px;
+    width: 150px;
+}
+
+.fullcards {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.fullcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.text2 {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 125px 270px 100px 270px;
+}
+
+.text3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.thor {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    padding: 0 32px;
+}
+
+.signup {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.title4 {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.text4 {
+    color: white;
+}
+
+#white {
+    border: 2px solid white;
+    margin: 5px 0;
+}
+
+.signuptext {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    text-align: center;
 }
